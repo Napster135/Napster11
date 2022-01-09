@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HometurismoActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButtonlaboca"
+        android:layout_width="185dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonbarracas"
+        app:srcCompat="@drawable/libreria"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbarracas"
+        android:layout_width="189dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonrosedal"
+        app:srcCompat="@drawable/barracas"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonateneo"
+        android:layout_width="189dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="47dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonmural"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonrosedal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ateneo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbarracas3"
+        android:layout_width="189dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonbarracas5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonlaboca"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonmural"
+        app:srcCompat="@drawable/barracas"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonmural"
+        android:layout_width="189dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonbarracas3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonbarracas"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonateneo"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:src="@drawable/mural" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbarracas5"
+        android:layout_width="189dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="56dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtontunel"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonbarracas3"
+        app:srcCompat="@drawable/barracas"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewfloristeria"
+        android:layout_width="182dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/titlefrosedas"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonrosedal" />
+
+    <TextView
+        android:id="@+id/textViewfloristeria2"
+        android:layout_width="182dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/titleateneo"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonateneo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/titleflabocalibreria"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonlaboca" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/titlebarracas"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonbarracas" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/titletunel"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtontunel" />
+
+    <ImageButton
+        android:id="@+id/imageButtontunel"
+        android:layout_width="192dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonlaboca"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:srcCompat="@drawable/tunel" />
+
+    <ImageButton
+        android:id="@+id/imageButtonrosedal"
+        android:layout_width="187dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rosedal"
+        tools:ignore="SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

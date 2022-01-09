@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TunelesActivity">
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/carousel4"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tuneles_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="¿Se animarían a conocer los túneles más viejos de BA? 🔦  [DESLIZAR PARA VER MÁS]  La superficie de Buenos Aires tiene innumerables tesoros y secretos. Pero por si no sabían, su subsuelo también los tiene.  En las profundidades de la ciudad existen una serie de túneles que conectan (o solían conectar) de manera secreta a algunos de los edificios porteños más emblemáticos y que por suerte ahora se pueden visitar.  En este caso les quiero hablar sobre estos que se ubican en el barrio de Montserrat, específicamente bajo la Iglesia San Ignacio Loyola, que se tratarían de los más antiguos de toda la ciudad y los únicos caminables (30 metros aprox)."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textDirection="locale"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carousel4"
+        app:layout_constraintVertical_bias="0.576" />
+</androidx.constraintlayout.widget.ConstraintLayout>

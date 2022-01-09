@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FloreriabarActivity">
+
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/carousel9"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/floreria_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textDirection="locale"
+        android:textSize="16sp"
+        android:text="BAR ESCONDIDO N•7 dentro del ranking de los 50 mejores bares del mundo! 🤯🤯
+
+📍 Donde es? Este barcito se encuentra escondido en una florería @floreriaatlantico y queda en Arroyo 872!
+
+🤫 Pueden consultar por reservas o ir directamente y esperar una mesita!
+
+🌎 Está posicionado como el bar número 7 dentro del ranking de los 50 mejores bares del mundo! Por eso sus tragos son una bomba 💣🍹🍹
+
+🌊🛥 Es un bar ambientado como si fuese un barco! Obvio que encontramos comida de mar y algunas otras opciones más tradicionales.
+
+💸 PRECIOS: pueden encontrar tragos DE TODO TIPO desde los $500 hasta los $700. Entraditas a partir de los $500 y platos principales hasta $1500-$1700.
+
+💃🏼💃🏼 BAR CON MUY BUENA ONDA, ponen música al palo a partir de cierto momento y se re pone!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carousel9"
+        app:layout_constraintVertical_bias="0.576" />
+</androidx.constraintlayout.widget.ConstraintLayout>

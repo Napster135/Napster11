@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Napster</string>
+    <string name="prefs_file">com.example.napster.PREFERENCE_FILE_KEY</string>
+    <string name="facebook_app_id">249330370522162</string>
+    <string name="fb_login_protocol_scheme">fb249330370522162</string>
+    <string name="iv_foto">Foto</string>
+    <string name="Boton_siguiente">Siguiente</string>
+    <string name="Boton_carousel">Carousel</string>
+    <string name="Boton_castelo">Castelo</string>
+    <string name="Boton_tuneles">Tuneles</string>
+
+    <string name="tv1">Primer Activity</string>
+    <string name="textcastelo">"visitar_comer_y_hasta_hospedarse_en_un_palacio_de_ba_palacio_sans_souci_visit_uno_de_los_palacios_m_s_incre_bles_de_la_provincia_de_buenos_aires_y_no_solo_eso_hasta_me_hosped_all_palacio_sans_souci_palaciosanssouci_en_victoria_a_25km_de_la_ciudad_aut_noma_de_buenos_aires_est_esta_joya_arquitect_nica_que_promete_sorprender_a_todo_aquel_que_la_visita_la_enorme_residencia_de_1914_pertenec_a_originalmente_a_la_familia_alvear_actualmente_es_de_sans_souci_sa_que_la_alquila_para_eventos_y_ahora_hospedajes_c_mo_les_dije_yo_fui_a_hospedarme_en_su_suite_de_novios_la_experiencia_es_una_real_locura_es_ideal_para_aquellos_que_quieran_desconectarse_un_rato_y_descansar_quedarse_all_permite_recorrer_gran_parte_de_sus_instalaciones_y_hasta_usar_su_pileta"</string>
+    <string name="textateneo">📚 Anticipándome al día del libro,
+        hoy me acerqué a recorrer la librería declarada por el National Geographic como la más linda del Mundo... el Ateneo Grand Splendid.🙋🏻‍♂️ Les cuento: 📆 A diferencia del resto del Mundo, en la Argentina el día del libro se celebra el 15 de junio. . 📚 Esta celebración comenzó el 15 de junio de 1908 como Fiesta del Libro. . 🥇 Ese día se entregaron los premios de un concurso literario organizado por el Consejo Nacional de Mujeres.. 👉🏼 Sabían que en el 2011, Buenos Aires fue seleccionada como la capital mundial del libro? .🤔 Será porque es la ciudad con más librerías del mundo? . .🙋🏻‍♂️ Les comparto algunas fotos del Grand Splendid ....👉🏼 Lo conocen?</string>
+    <string name="textrosedal">Primer Activity</string>
+    <string name="texttuneles">Primer Activity</string>
+    <string name="textbarracas">"🎨
+Un túnel de colores...
+.
+📍En el barrio de Barracas, paralelo a las vías del tren Roca, encontramos al pasaje Lanin.
+.
+☝Esta pequeña callecita tiene una particularidad,  40 de las casas que las componen, tienen sus fachadas cubiertas por mosaicos venecianos y azulejos de colores.
+.
+👨‍🎨 La idea surgió del artista plástico Marino Santa María, quien a finales de la década del '90, decide pintar el frente de su casa con varios colores.
+.
+☝Al ver como había quedado, los vecinos comenzaron a pedirle que hiciese lo mismo en los frentes de sus casas.
+.
+🎨 Es así que, poco a poco, está callecita se fue convirtiendo en ⚒ En el 2005, al momento de restaurar los dibujos de los frentes, deciden suplantar los colores por venecitas y azulejos.
+.
+📍Marino, aún tiene su taller en Lanin 33
+.
+.
+👉 Lo conocen?"</string>
+    <string name="textbocalibreria">Primer Activity</string>
+    <string name="textfloristeria">Primer Activity</string>
+    <string name="textatis">El patio más lindo de San Telmo: ATIS BAR 🌿🍻
+        [DESLIZÁ PARA VER MÁS]
+         Volví a uno de mis espacios favoritos de toda la ciudad: Atis Bar (@atis.bar ).  Si no conocen Atis les aseguro que por lo menos deben ir una vez en sus vidas. Este patio de estilo andaluz es de lo más lindo que posee la ciudad. Enredaderas por doquier, macetas, estatuas y mobiliario antiguo enamoran a todo aquel pone un pie acá.  En mi visita pasada solo había pedido un tostado con un café. El restaurante solo llevaba un poco más de un mes de inaugurado y aún no era tan conocido. Ahora decidí volver para probar un poco de su carta y ver algunos de los nuevos salones.  Acá se puede desde almorzar hasta cenar o merendar.  En mi caso yo fui almorzar con otras dos personas. Arrancamos con una tortilla española y una provoleta. De platos principales por otro lado pedimos ravioles de salmón, asado de tira y una Lasagna de vegetales. La verdad fue todo muy abundante y rico."
+        </string>
+    <string name="textotono">Primer Activity</string>
+    <string name="textinvierno">Primer Activity</string>
+    <string name="textverano">Primer Activity</string>
+    <string name="textprimavera">Primer Activity</string>
+    <string name="titletunel">Tuneles de Buenos Aires</string>
+    <string name="titlebarracas">Barrio colorido de Barracas</string>
+    <string name="titleflabocalibreria">Libreria de la Boca</string>
+    <string name="titleateneo">Ateneo -Libreria y Cafe</string>
+    <string name="titlefrosedas">Rosedal de Palermo</string>
+    <string name="titlefloristeria">Bar La Floristeria</string>
+    <string name="titlecastelo">Castillo Sans Souci</string>
+    <string name="titleatis">Pub Atis</string>
+    <string name="titleotono">Otoño</string>
+    <string name="titleinvierno">Invierno</string>
+    <string name="titleprimavera">Primavera</string>
+    <string name="titleverano">Verano</string>
+
+
+</resources>

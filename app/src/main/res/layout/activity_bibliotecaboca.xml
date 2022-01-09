@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BibliotecabocaActivity">
+
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/carousel5"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/boca_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Libros, arte y café: CAFÉ PROA ☕️
+
+[DESLIZÁ PARA VER MÁS]
+
+En el barrio de La Boca se encuentra un lugar con increíbles vistas y opciones culturales: CAFÉ PROA (@cafe_proa ).
+
+La Boca no es solo el famoso y tan fotografiado “Caminito”. El otro día les mostré Colón Fábrica. Hoy les traigo este otro lugar que me encantó.
+
+Para quienes no conozcan, dentro del edificio que pertenece a la Fundación Proa está este espacio que invita a leer un libro, escribir, sacar fotos o relajarse un rato con una copa de vino y algún plato de comida.
+
+En mi caso fui a recorrer la un poco de la muestra y terminé con una copa de vino y un postre de chocolate que la rompía. 🤤
+
+El menú es acotado pero les dejo algunos precios así se dan una idea de lo que pueden consumir:
+
+- Picada vegetariana $870
+- Pastas del día (con copa de vino y café) $1.100
+- Tostado $650
+- Pizza individual a la piedra $800
+
+Lo lindo es que en el piso de abajo está la bellísima librería especializada en arte y las exposiciones.
+
+Si desean ir al café les recomiendo hacer reserva previa, más si van en fin de semana. Lo mismo con el tema de las exposiciones. Las cuentas para reservar son @cafe_proa y @fundacion_proa para las exposiciones.
+
+📍Av. Pedro de Mendoza 1929, CABA.
+
+Horarios: Jueves a Domingos de 12 a 19."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textDirection="locale"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carousel5"
+        app:layout_constraintVertical_bias="0.576" /></androidx.constraintlayout.widget.ConstraintLayout>
