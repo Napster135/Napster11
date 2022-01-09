@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".PrincipalActivity">
 
     <TextView
@@ -44,7 +47,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonstaciones"
-        tools:srcCompat="@drawable/floreria1" />
+        app:srcCompat="@drawable/floreria1" />
 
     <ImageView
         android:id="@+id/imageViewrestaurantes"
@@ -54,7 +57,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewbares"
-        tools:srcCompat="@drawable/restaurantess" />
+        app:srcCompat="@drawable/restaurantess" />
 
     <ImageView
         android:id="@+id/imageViewturismo"
@@ -64,7 +67,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewrestaurantes"
-        tools:srcCompat="@drawable/fotobaires4" />
+        app:srcCompat="@drawable/fotobaires4" />
 
     <ImageView
         android:id="@+id/imageViewestaciones"
@@ -75,7 +78,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewturismo"
-        tools:srcCompat="@drawable/primavera4" />
+        app:srcCompat="@drawable/primavera4" />
 
     <TextView
         android:id="@+id/textViewfloristeria"
@@ -83,10 +86,11 @@
         android:layout_height="wrap_content"
         android:text="Bares"
         android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toEndOf="@+id/imageViewbares"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewbares" />
 
     <TextView
         android:id="@+id/textView6"
@@ -94,10 +98,11 @@
         android:layout_height="wrap_content"
         android:text="Estaciones"
         android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewestaciones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toEndOf="@+id/imageViewestaciones"
-        tools:layout_editor_absoluteY="629dp" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewestaciones" />
 
     <TextView
         android:id="@+id/textView7"
@@ -106,10 +111,11 @@
         android:ellipsize="middle"
         android:text="Turismo"
         android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewturismo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toEndOf="@+id/imageViewturismo"
-        tools:layout_editor_absoluteY="474dp" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewturismo" />
 
     <TextView
         android:id="@+id/textViewinvierno"
@@ -117,9 +123,11 @@
         android:layout_height="wrap_content"
         android:text="Restaurantes"
         android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewrestaurantes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toEndOf="@+id/imageViewrestaurantes"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewrestaurantes" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
